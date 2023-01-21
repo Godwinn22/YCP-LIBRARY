@@ -1,0 +1,649 @@
+* {
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.first {
+    background-color:#6C6B6B; 
+    padding: 35px;
+    position: relative;
+}
+.first div{
+    position: absolute;
+    display: flex;
+    top: 1.5rem;
+    flex-wrap: wrap;
+}
+.first .contact {
+    right:18.5rem;
+    border-right: 2px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 0px 10px;
+    color: #FFFFFF;
+}
+.first .acct {
+    right: 12rem;
+    border-right: 2px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 0px 15px;
+    color: #FFFFFF;
+}
+.first .select {
+    right: 3rem;
+    color: #FFFFFF;
+}
+.select img {
+    /* height: 7.499979496002197px; */
+    width: 18px;
+    transform: rotate(270deg) translate(0.2rem,0.5rem);
+}
+.second {
+    background-color: white;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    position: absolute;
+    left: 3rem;
+    top: 0rem;
+}
+.search input{
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 20rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    left: 47rem;
+    top: 2.3rem;
+}
+.search i{
+    background-color: #0FB7EC;
+    padding: 10px  20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 63.46rem;
+    top: 2.3rem;
+}
+.hours {
+    position: relative;
+    left: 17rem;
+}
+.hour img,.Get img{
+    margin-bottom: -5px;
+}
+.hour span,.Get span {
+    font-size: 1.3rem;
+    margin-right: 20px;
+    color: #0FB7EC;
+}
+.hour {
+    margin-top: -30px;
+    padding: 15px;
+}
+.Get {
+    margin-top: -0px;
+    padding: 15px;
+}
+.line1 {
+    position: absolute;
+    width: 247px;
+    height: 1px;
+    background-color: #000000;
+    text-align:right ;
+}
+.line2 {
+    position: absolute;
+    width: 115px;
+    height: 1px;
+    right: 11rem;
+    background-color: #000000;
+    transform: rotate(90deg);
+}
+.third {
+    background-image: url("./candies.jpg");
+    background-position: 0px 57rem;
+    background-size: 80%;
+    border-top: 1px solid #00000080;
+    position: relative;
+    left: 0px;
+    width: 100%;
+    top: -26px;
+    text-align: center;
+}
+.third ul {
+    background-color: rgba(217, 217, 217, 0.915);
+    width: 100%;
+    padding: 25px;
+}
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 13px;
+    color: #000000;
+}
+.don {
+    background-color: red;
+    padding: 4px 15px;
+    color: #FFFFFF;
+}
+.main {
+    width: 100%;
+    height: 57rem;
+    margin-top: -26px;
+    background-image: url("teen and mom.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -3rem;
+}
+.rect {
+    width: 54%;
+    height: 26rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding-top: 1px;
+}
+.rect h1 {
+    white-space: pre;
+    font-size: 3rem;
+    margin-top: 35px;
+}
+.rect h2 {
+    white-space: pre;
+    font-size: 1.3rem;
+    margin-top: 35px;
+}
+.rect button {
+    padding: 1.1rem 2rem;
+    background-color: #0F0146;
+    border-radius: 50px;
+    border: none;
+    margin-top: 48px;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+.sect2 {
+    margin-top: 30px;
+    width: 100%;
+    height: 31rem;
+    background-size: 90%;
+    background-image:url("background ziggy.jpg") ;
+}
+.cover {
+    background-color: #0F0146;
+    opacity: 0.98;
+    width: 100%;
+    height: 31rem;
+    padding-top: 1px;
+}
+.fourth {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+.fourth p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.circles {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 5.5rem;
+    color: white;
+}
+.circle1 div {
+    background-color: #0FB7EC;
+    /* width: 140px;
+    height: 140px; */
+    padding: 3rem;
+    border-radius: 50%;
+}
+.circle2 div {
+    background-color: #0FB7EC;
+    border-radius: 50%;
+    /* width: 140px;
+    height: 140px; */
+    padding: 2.35rem 2.4rem;
+}
+.circle3 div {
+    background-color: #0FB7EC;
+    padding: 3rem 3.1rem;
+    border-radius: 50%;
+}
+.circle4 div {
+    background-color: #0FB7EC;
+    padding: 3rem 3.1rem;
+    border-radius: 50%;
+}
+.circle5 div {
+    background-color: #0FB7EC;
+    padding: 2.7rem 3.3rem;
+    border-radius: 50%;
+}
+.circle6 div {
+    background-color: #0FB7EC;
+    padding: 2.3rem;
+    border-radius: 50%;
+}
+.circles p {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.sect3 {
+    width: 75rem;
+    height:29rem;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 3rem;
+    margin: auto;
+    background-color: #0FB7ECAB;
+    padding-top: 1px;
+}
+.happening img{
+    position: absolute;
+}
+.happening img:nth-child(2){
+    left: 2rem;
+    top: 4rem;
+    width: 48%;
+    height: 22rem;
+}
+.happening img:nth-child(3){
+    left: 19.3rem;
+    top: 4rem;
+    height: 13rem;
+    width: 25%;
+    background-color: #0fb8ec1e;
+}
+.happening h3 {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #000000;
+    width: 11.5rem;
+}
+.support {
+    position: absolute;
+    right: 2rem;
+    top: 7rem;
+    gap: 3rem;
+}
+.support h1,p {
+    white-space: pre;
+    margin-top: 0.5rem;
+}
+.support h1{
+    line-height: 2rem;
+    font-size: 1.8rem;
+}
+.support img {
+    margin-top: 3rem;
+}
+.sect4 {
+    width: 100%;
+    position: relative;
+    top: 6rem;
+    height: 39rem;
+    background-size: cover;
+    background-image: url("./shelf\ of\ books.jpeg");
+}
+header {
+    background-color: #0f0146d1;
+    width: 100%;
+    height: 39rem;
+}
+main {
+    margin-left: 2rem;
+    color: white;
+    padding-top: 1px;
+}
+main h1,h3 {
+    margin-top: 1rem;
+}
+header ul {
+    display: flex;
+    margin-left: 7rem;
+    list-style: none;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    color: white;
+}
+li {
+    padding: 0rem 1rem;
+}
+.adult {
+    border-bottom:2px solid #0FB7EC;
+    padding: 0rem 1rem;
+}
+/* .slides {
+    position: absolute;
+} */
+.slides {
+    position: absolute;
+    left: 0;
+    width: 80%;
+    right: 0;
+    margin: auto;
+    top: 16rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slides img {
+    width: 9.5rem;
+    margin-left: 1.3rem;
+    transition: transform 700ms ease-in-out 0s;
+    cursor: pointer;
+}
+.slides img:hover{
+    transform: scale(1.2);
+}
+.slides img:nth-of-type(1){
+    width: 9.6rem;
+}
+
+.slides img:nth-of-type(4){
+    width: 9.3rem;
+}
+.slides img:nth-of-type(5){
+    width: 9.7rem;
+}
+.slider .left,.slider .right {
+    width: 2%;
+    position: absolute;
+}
+.slider .left{
+    left: 5rem;
+    margin: 0;
+    top: 22rem;
+}
+.slider .right {
+    transform: rotate(180deg);
+    right: 5rem;
+    margin: 0;
+    top: 22rem;
+}
+.sect5 {
+    position: relative;
+    top: 6rem;
+    height: 75rem;
+    background-color: #6c6b6b30
+}
+.ict {
+    width: 100%;
+    height:7rem;
+    background-color: #FFFFFF;
+    /* padding-top: 0.01rem; */
+}
+.ict h1{
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+.ict h4 {
+    white-space: pre;
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+    font-weight: 500;
+}
+.ict h1,.ict h4 {
+    margin-left: 2rem;
+}
+.reserve{
+    width: 100%;
+    height:20rem;
+    background-color: #FFFFFF;
+    margin-top: 2rem;
+    display: flex;
+    position: relative;
+}
+.reserver {
+    position: absolute;
+    left: 2rem;
+    top: 5.5rem;
+}
+.leftimg {
+    position: absolute;
+    right: 0rem;
+    width: 38%;
+    height: 20rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("./comp1.jpg");
+}
+.reserver h3 {
+    white-space: pre;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+.rents{
+    width: 100%;
+    height:20rem;
+    background-color: #FFFFFF;
+    margin-top: 2rem;
+    display: flex;
+    position: relative;
+}
+.rent {
+    position: absolute;
+    right: 8.9rem;
+    top: 8rem;
+}
+.rightimg {
+    position: absolute;
+    left: 2rem;
+    width: 40%;
+    height: 20rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("./empty-business-boardroom-with-glass-wall_625516-2935.jpg");
+}
+.rent h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.booksanddvd{
+    width: 100%;
+    height:20rem;
+    background-color: #FFFFFF;
+    margin-top: 2rem;
+    display: flex;
+    position: relative;
+}
+.dvd {
+    position: absolute;
+    left: 2rem;
+    top: 5.5rem;
+}
+.leftimg1 {
+    position: absolute;
+    right: 0rem;
+    width: 36.7%;
+    height: 20rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("./disk\ and\ books.jpeg");
+}
+/* .leftimg img{
+    width: 100%;
+    height: 20rem;
+} */
+.dvd h3 {
+    white-space: pre;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+footer {
+    position: relative;
+    top: 6rem;
+}
+.email1 {
+    background-color: black;
+    width: 100%;
+    height: 7rem;
+}
+.email {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.logo2 {
+    position: absolute;
+    left: 0;
+}
+.news {
+    position: absolute;
+    right: 0;
+    color: #FFFFFF;
+    top: 0.8rem;
+}
+.news {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+.news button:nth-of-type(1){
+    padding: 0.5rem 0.5rem;
+    border-radius: 50px;
+    font-size: 1.01rem;
+    background-color: #0F76B0;
+    position: absolute;
+    right: 0.2rem;
+    outline: none;
+    top: 1.5rem;
+    border: none;
+}
+.news input {
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+.all1 {
+    background-color: black;
+    position: relative;
+    top: 0.1rem;
+    width: 100%;
+    height: 20rem;
+}
+.all {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    position: relative;
+    width: 80%;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    height: 17rem;
+    margin: auto;
+}
+.about div {
+    margin-top: 2.5rem;
+}
+.contact1 {
+    position: relative;
+    display: flex;
+}
+.contact1 img {
+    width: 100%;
+    height: 3rem;
+}
+.text1 {
+    position: absolute;
+    top: -2.1rem;
+    left: 5rem;
+}
+.phone {
+    position: relative;
+    display: flex;
+    top: 1rem;
+}
+.phone img {
+    width: 100%;
+    height: 3.2rem;
+}
+.text2 {
+    position: absolute;
+    top: -2rem;
+    left: 5rem;
+}
+.velope{
+    position: relative;
+    display: flex;
+    top: 1rem;
+}
+.velope img {
+    width: 100%;
+    height: 3rem;
+}
+.contact1 span {
+    white-space: pre;
+  
+}
+.text3 {
+    position: absolute;
+    top: -1.4rem;
+    left: 5rem;
+}
+.faq {
+    position: absolute;
+    left: 0;
+    width: 20%;
+    right: 0;
+    top: 1.5rem;
+    margin: auto;
+    line-height: 2.5;
+}
+.right {
+    position: absolute;
+    width: 20%;
+    right: 0;
+    top: 1.5rem;
+    line-height: 2.1;
+}
+.below {
+    background-color: #0FB7EC;
+    width: 100%;
+    height: 5rem;
+}
+.footer {
+    display: flex;
+    width: 90%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.copywright {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    right: 0;
+    top: 1rem;
+    color: white;
+    margin: auto;
+}
+.logo3 {
+    margin-top: 1.3rem;
+}
+.logo3 .yo {
+    position: absolute;
+    top: 0.9rem;
+}
